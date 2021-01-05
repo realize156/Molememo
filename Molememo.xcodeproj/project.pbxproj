@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		36C77A9425A452E10035A859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C77A9325A452E10035A859 /* AppDelegate.swift */; };
 		36C77A9625A452E10035A859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C77A9525A452E10035A859 /* SceneDelegate.swift */; };
-		36C77A9825A452E10035A859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C77A9725A452E10035A859 /* ViewController.swift */; };
 		36C77A9B25A452E10035A859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C77A9925A452E10035A859 /* Main.storyboard */; };
 		36C77A9E25A452E10035A859 /* Molememo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36C77A9C25A452E10035A859 /* Molememo.xcdatamodeld */; };
 		36C77AA025A452E40035A859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C77A9F25A452E40035A859 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		36C77A9025A452E10035A859 /* Molememo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molememo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C77A9325A452E10035A859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C77A9525A452E10035A859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36C77A9725A452E10035A859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36C77A9A25A452E10035A859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36C77A9D25A452E10035A859 /* Molememo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Molememo.xcdatamodel; sourceTree = "<group>"; };
 		36C77A9F25A452E40035A859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				36C77AAB25A452F30035A859 /* Molememo.entitlements */,
 				36C77A9325A452E10035A859 /* AppDelegate.swift */,
 				36C77A9525A452E10035A859 /* SceneDelegate.swift */,
-				36C77A9725A452E10035A859 /* ViewController.swift */,
 				36C77A9925A452E10035A859 /* Main.storyboard */,
 				36C77A9F25A452E40035A859 /* Assets.xcassets */,
 				36C77AA125A452E40035A859 /* LaunchScreen.storyboard */,
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C77A9E25A452E10035A859 /* Molememo.xcdatamodeld in Sources */,
-				36C77A9825A452E10035A859 /* ViewController.swift in Sources */,
 				36C77A9425A452E10035A859 /* AppDelegate.swift in Sources */,
 				36C77A9625A452E10035A859 /* SceneDelegate.swift in Sources */,
 			);
