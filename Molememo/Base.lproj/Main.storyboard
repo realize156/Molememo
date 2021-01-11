@@ -107,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vnF-0f-QBS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2427.6923076923076" y="-633.41232227488149"/>
+            <point key="canvasLocation" x="3222" y="-762"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ora-Rb-Iot">
@@ -141,7 +141,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2A3-ix-zT5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1528" y="-633"/>
+            <point key="canvasLocation" x="2322" y="-762"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="ZPr-ML-bbi">
@@ -154,7 +154,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucY-vr-mvF">
                                 <rect key="frame" x="0.0" y="761" width="390" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="ecL-pN-ESK"/>
+                                    <barButtonItem systemItem="compose" id="ecL-pN-ESK">
+                                        <connections>
+                                            <segue destination="iKY-pQ-8kB" kind="presentation" id="ke8-Vt-egp"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fvl-7y-hE5">
@@ -217,12 +221,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="3k9-bM-gK5"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="fvl-7y-hE5" id="gBS-YQ-CXj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E1b-CL-Ycf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1527.6923076923076" y="56.872037914691937"/>
+            <point key="canvasLocation" x="1532" y="57"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ke8-Vt-egp"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
