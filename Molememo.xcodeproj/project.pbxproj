@@ -13,6 +13,7 @@
 		36C77A9E25A452E10035A859 /* Molememo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36C77A9C25A452E10035A859 /* Molememo.xcdatamodeld */; };
 		36C77AA025A452E40035A859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C77A9F25A452E40035A859 /* Assets.xcassets */; };
 		36C77AA325A452E40035A859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C77AA125A452E40035A859 /* LaunchScreen.storyboard */; };
+		36CFFFD025AC6D9E006280F1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFFFCF25AC6D9E006280F1 /* DataManager.swift */; };
 		36DDB79425A4616D00E1124E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDB79325A4616D00E1124E /* Model.swift */; };
 		36DDB79725A4638F00E1124E /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDB79625A4638F00E1124E /* MemoListTableViewController.swift */; };
 		36DDB79A25A47BAF00E1124E /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDB79925A47BAF00E1124E /* ComposeViewController.swift */; };
@@ -30,6 +31,7 @@
 		36C77AA225A452E40035A859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36C77AA425A452E40035A859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36C77AAB25A452F30035A859 /* Molememo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Molememo.entitlements; sourceTree = "<group>"; };
+		36CFFFCF25AC6D9E006280F1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		36DDB79325A4616D00E1124E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		36DDB79625A4638F00E1124E /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		36DDB79925A47BAF00E1124E /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		36C77A9225A452E10035A859 /* Molememo */ = {
 			isa = PBXGroup;
 			children = (
+				36CFFFCE25AC6D8D006280F1 /* Data */,
 				36DDB79225A4614500E1124E /* Model */,
 				36C77AAB25A452F30035A859 /* Molememo.entitlements */,
 				36C77A9325A452E10035A859 /* AppDelegate.swift */,
@@ -82,6 +85,14 @@
 				36DDB79F25A48A7100E1124E /* DetailViewController.swift */,
 			);
 			path = Molememo;
+			sourceTree = "<group>";
+		};
+		36CFFFCE25AC6D8D006280F1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				36CFFFCF25AC6D9E006280F1 /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		36DDB79225A4614500E1124E /* Model */ = {
@@ -169,6 +180,7 @@
 				36C77A9625A452E10035A859 /* SceneDelegate.swift in Sources */,
 				36DDB79425A4616D00E1124E /* Model.swift in Sources */,
 				36DDB79D25A4827600E1124E /* UIViewController+Alert.swift in Sources */,
+				36CFFFD025AC6D9E006280F1 /* DataManager.swift in Sources */,
 				36DDB7A025A48A7100E1124E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
