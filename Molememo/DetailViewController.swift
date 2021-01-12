@@ -19,6 +19,18 @@ class DetailViewController: UIViewController {
         f.locale = Locale(identifier: "Ko_kr")
         return f
     }()
+    
+    @IBAction func share(_ sender: Any) {
+        
+        guard let memo = memo?.content else {return}
+        
+        let vc = UIActivityViewController(activityItems: [memo], applicationActivities: nil)
+        
+        present(vc, animated: true, completion: nil)
+    }
+    
+    
+    
     @IBAction func deleteMemo(_ sender: Any) {
         let alert  = UIAlertController(title: "삭제 확인", message: "메모를 삭제할까요 ?", preferredStyle: .alert)
         
@@ -32,6 +44,8 @@ class DetailViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
     }
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination.children.first as?
