@@ -32,6 +32,9 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                            </variation>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BwW-fA-bIb">
                                             <rect key="frame" x="19.999999999999996" y="31.333333333333332" width="43.666666666666664" height="14.333333333333334"/>
@@ -39,6 +42,9 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" name="MyLabelColor"/>
                                             <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -79,6 +85,9 @@
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                </variation>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ikf-aV-hRz"/>
@@ -192,6 +201,9 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -209,6 +221,9 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -245,7 +260,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CeR-hN-RDQ"/>
+        <segue reference="ke8-Vt-egp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="MyLabelColor">
