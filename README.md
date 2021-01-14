@@ -1,6 +1,6 @@
 # Molememo Application
 
-## ios 메모 어플리케이션 입니다.
+ios 메모 어플리케이션 입니다.
 
 ## Screen Shot   
 
