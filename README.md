@@ -1,5 +1,7 @@
 # Molememo Application
 
+- ios 메모 어플리케이션 입니다.
+
 ## Screen Shot   
 
 | 실행 시 로고 화면 | 메모 메인 화면 | 새메모 작성 화면 |
